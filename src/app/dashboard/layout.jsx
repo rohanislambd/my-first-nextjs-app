@@ -1,11 +1,11 @@
-import React, { Children } from "react";
+import React from "react";
 
-const DashboardLayout = ({ Children }) => {
+const DashboardLayout = ({ Children  }) => {
   return (
     <div className="drawer lg:drawer-open">
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col items-center justify-center">
-        {Children}
+        {Children }
         <label htmlFor="my-drawer-3" className="btn drawer-button lg:hidden">
           Open drawer
         </label>
